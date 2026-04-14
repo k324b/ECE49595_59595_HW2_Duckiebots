@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/MaintenanceState.msg
+// generated code does not contain a copyright notice
+
+
+module duckietown_msgs {
+  module msg {
+    module MaintenanceState_Constants {
+      @verbatim (language="comment", text=
+        "pseudo constants")
+      const string WAY_TO_MAINTENANCE = "WAY_TO_MAINTENANCE";
+      const string WAY_TO_CHARGING = "WAY_TO_CHARGING";
+      const string CHARGING = "CHARGING";
+      const string WAY_TO_CALIBRATING = "WAY_TO_CALIBRATING";
+      const string CALIBRATING = "CALIBRATING";
+      const string WAY_TO_CITY = "WAY_TO_CITY";
+      const string NONE = "NONE";
+    };
+    @verbatim (language="comment", text=
+      "std_msgs/Header header")
+    struct MaintenanceState {
+      string state;
+    };
+  };
+};

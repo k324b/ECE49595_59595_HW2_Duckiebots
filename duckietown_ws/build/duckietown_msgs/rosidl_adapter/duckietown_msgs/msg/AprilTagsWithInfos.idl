@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/AprilTagsWithInfos.msg
+// generated code does not contain a copyright notice
+
+#include "duckietown_msgs/msg/AprilTagDetection.idl"
+#include "duckietown_msgs/msg/TagInfo.idl"
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    struct AprilTagsWithInfos {
+      std_msgs::msg::Header header;
+
+      sequence<duckietown_msgs::msg::AprilTagDetection> detections;
+
+      sequence<duckietown_msgs::msg::TagInfo> infos;
+    };
+  };
+};

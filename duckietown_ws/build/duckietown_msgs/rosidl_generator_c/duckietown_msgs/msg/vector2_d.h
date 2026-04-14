@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from duckietown_msgs:msg/Vector2D.idl
+// generated code does not contain a copyright notice
+
+#ifndef DUCKIETOWN_MSGS__MSG__VECTOR2_D_H_
+#define DUCKIETOWN_MSGS__MSG__VECTOR2_D_H_
+
+#include "duckietown_msgs/msg/detail/vector2_d__struct.h"
+#include "duckietown_msgs/msg/detail/vector2_d__functions.h"
+#include "duckietown_msgs/msg/detail/vector2_d__type_support.h"
+
+#endif  // DUCKIETOWN_MSGS__MSG__VECTOR2_D_H_

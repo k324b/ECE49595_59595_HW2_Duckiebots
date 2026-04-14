@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "duckietown_msgs__py",
+		"source" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/duckietown_msgs__py"
+	}
+}

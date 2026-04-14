@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/Rect.msg
+// generated code does not contain a copyright notice
+
+
+module duckietown_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "all in pixel coordinate" "\n"
+      "(x, y, w, h) defines a rectangle")
+    struct Rect {
+      int32 x;
+
+      int32 y;
+
+      int32 w;
+
+      int32 h;
+    };
+  };
+};

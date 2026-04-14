@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/TagInfo.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    module TagInfo_Constants {
+      const uint8 S_NAME = 0;
+      const uint8 SIGN = 1;
+      const uint8 LIGHT = 2;
+      const uint8 LOCALIZE = 3;
+      const uint8 VEHICLE = 4;
+      @verbatim (language="comment", text=
+        "(12 possible traffic sign types)")
+      const uint8 STOP = 5;
+      const uint8 YIELD = 6;
+      const uint8 NO_RIGHT_TURN = 7;
+      const uint8 NO_LEFT_TURN = 8;
+      const uint8 ONEWAY_RIGHT = 9;
+      const uint8 ONEWAY_LEFT = 10;
+      const uint8 FOUR_WAY = 11;
+      const uint8 RIGHT_T_INTERSECT = 12;
+      const uint8 LEFT_T_INTERSECT = 13;
+      const uint8 T_INTERSECTION = 14;
+      const uint8 DO_NOT_ENTER = 15;
+      const uint8 PEDESTRIAN = 16;
+      const uint8 T_LIGHT_AHEAD = 17;
+      const uint8 DUCK_CROSSING = 18;
+      const uint8 PARKING = 19;
+    };
+    struct TagInfo {
+      std_msgs::msg::Header header;
+
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "(StreetName, TrafficSign, Localization, Vehicle)")
+      uint8 tag_type;
+
+      string street_name;
+
+      uint8 traffic_sign_type;
+
+      string vehicle_name;
+
+      @verbatim (language="comment", text=
+        "Just added a single number for location. Probably want to use Vector2D.msg, but I get errors when I try to add it.")
+      float location;
+    };
+  };
+};

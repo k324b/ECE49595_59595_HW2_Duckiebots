@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/SignalsDetectionETHZ17.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    module SignalsDetectionETHZ17_Constants {
+      @verbatim (language="comment", text=
+        " Each of these can be:" "\n"        "string NO_CAR='no_car_detected'")
+      const string SIGNAL_A = "car_signal_A";
+      const string SIGNAL_B = "car_signal_B";
+      const string SIGNAL_C = "car_signal_C";
+      const string NO_CARS = "no_cars_detected";
+      const string CARS = "cars_detected";
+      @verbatim (language="comment", text=
+        " Plus we can see the traffic light" "\n"        " for the moment we assume that no traffic light exists" "\n"        "string traffic_light_state" "\n"        "string NO_TRAFFIC_LIGHT='no_traffic_light'" "\n"        "string STOP='tl_stop'")
+      const string GO = "tl_go";
+    };
+    struct SignalsDetectionETHZ17 {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " this is what we can see at the intersection:" "\n"
+        "string front" "\n"
+        "string right" "\n"
+        "string left" "\n"
+        " For the first backoff approach")
+      string led_detected;
+
+      string no_led_detected;
+    };
+  };
+};

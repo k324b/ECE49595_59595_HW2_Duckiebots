@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/StopLineReading.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    struct StopLineReading {
+      std_msgs::msg::Header header;
+
+      boolean stop_line_detected;
+
+      boolean at_stop_line;
+
+      @verbatim (language="comment", text=
+        "this is in the \"lane frame\"")
+      geometry_msgs::msg::Point stop_line_point;
+    };
+  };
+};

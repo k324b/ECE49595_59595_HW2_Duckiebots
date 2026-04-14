@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/LEDDetectionDebugInfo.msg
+// generated code does not contain a copyright notice
+
+#include "duckietown_msgs/msg/LEDDetectionArray.idl"
+#include "duckietown_msgs/msg/Vector2D.idl"
+#include "sensor_msgs/msg/CompressedImage.idl"
+
+module duckietown_msgs {
+  module msg {
+    typedef uint32 uint32__2[2];
+    typedef float float__4[4];
+    struct LEDDetectionDebugInfo {
+      @verbatim (language="comment", text=
+        "0: idle, 1: capturing, 2: processing")
+      uint8 state;
+
+      float capture_progress;
+
+      uint32__2 cell_size;
+
+      float__4 crop_rect_norm;
+
+      sensor_msgs::msg::CompressedImage variance_map;
+
+      sequence<duckietown_msgs::msg::Vector2D> candidates;
+
+      duckietown_msgs::msg::LEDDetectionArray led_all_unfiltered;
+    };
+  };
+};

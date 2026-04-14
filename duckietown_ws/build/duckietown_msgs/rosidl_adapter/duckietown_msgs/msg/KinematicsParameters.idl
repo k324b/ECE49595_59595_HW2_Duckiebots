@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/KinematicsParameters.msg
+// generated code does not contain a copyright notice
+
+
+module duckietown_msgs {
+  module msg {
+    struct KinematicsParameters {
+      sequence<double> parameters;
+    };
+  };
+};

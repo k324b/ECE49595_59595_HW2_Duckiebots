@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/IntersectionPoseImg.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/CompressedImage.idl"
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    struct IntersectionPoseImg {
+      std_msgs::msg::Header header;
+
+      float x;
+
+      float y;
+
+      float theta;
+
+      uint8 type;
+
+      float likelihood;
+
+      sensor_msgs::msg::CompressedImage img;
+    };
+  };
+};

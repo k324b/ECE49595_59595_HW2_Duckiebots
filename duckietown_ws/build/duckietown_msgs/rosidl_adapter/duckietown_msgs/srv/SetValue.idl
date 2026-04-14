@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from duckietown_msgs/srv/SetValue.srv
+// generated code does not contain a copyright notice
+
+
+module duckietown_msgs {
+  module srv {
+    struct SetValue_Request {
+      float value;
+    };
+    struct SetValue_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

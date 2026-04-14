@@ -67,18 +67,18 @@ def send_command(command):
 
     if command == "forward":
         print("Command: FORWARD — full speed, say stop to halt")
-        current_v = -1.0
+        current_v = -0.3
         current_omega = 0.0
 
     elif command == "backward":
         print("Command: BACKWARD — full speed, say stop to halt")
-        current_v = 1.0
+        current_v = 0.3
         current_omega = 0.0
 
     elif command == "left":
         print("Command: LEFT — turning 90 degrees")
         current_v = 0.0
-        current_omega = 5.0   # positive = left
+        current_omega = 3.0   # positive = left
         time.sleep(0.8)       # tune this for exact 90 degrees
         current_v = 0.0
         current_omega = 0.0
@@ -87,7 +87,7 @@ def send_command(command):
     elif command == "right":
         print("Command: RIGHT — turning 90 degrees")
         current_v = 0.0
-        current_omega = -5.0  # negative = right
+        current_omega = -3.0  # negative = right
         time.sleep(0.8)       # tune this for exact 90 degrees
         current_v = 0.0
         current_omega = 0.0

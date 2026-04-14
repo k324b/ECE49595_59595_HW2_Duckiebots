@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a5e8ad5d56b196fddeea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "duckietown_msgs__py",
+					"jsonFile" : "directory-duckietown_msgs__py-be31471c775194a85337.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/duckietown_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "duckietown_msgs__rs",
+					"jsonFile" : "directory-duckietown_msgs__rs-a2e198e5cfb01c982183.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/duckietown_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "duckietown_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_duckietown_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_duckietown_msgs_egg-59ffe587acd915f1722c.json",
+					"name" : "ament_cmake_python_build_duckietown_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_duckietown_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_duckietown_msgs-8a63c8080dab40a3c13f.json",
+					"name" : "ament_cmake_python_symlink_duckietown_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs-83b75eada7350fc0bf7f.json",
+					"name" : "duckietown_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__cpp-c16b934dfa3d19f7368b.json",
+					"name" : "duckietown_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "duckietown_msgs__py::@fe70fa4e1e1f004043a3",
+					"jsonFile" : "target-duckietown_msgs__py-26ebff0e6db2a199418a.json",
+					"name" : "duckietown_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_generator_c-caa2d45fae30f55e3d6d.json",
+					"name" : "duckietown_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_generator_py-1cea522021f3c15d9c60.json",
+					"name" : "duckietown_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_c-2c7c174321b0e53da09e.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_c__pyext-3b125341e5885b163a1b.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_cpp-ddba0eef4fd2562919cb.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_fastrtps_c-df532eb4dd311cb5dab6.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_fastrtps_c__pyext-c192b2727d7f168b9a9e.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_fastrtps_cpp-4fda7564691098224b78.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_introspection_c-388a1ab3b4c32ff68653.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_introspection_c__pyext-53beab1f7b7813d21405.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs__rosidl_typesupport_introspection_cpp-24a4b3eb1fecb7fc8d54.json",
+					"name" : "duckietown_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "duckietown_msgs__rs::@45f0114e683932509e67",
+					"jsonFile" : "target-duckietown_msgs__rs-e10179b2758718b85bd1.json",
+					"name" : "duckietown_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "duckietown_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-duckietown_msgs_uninstall-b0f009fbff7b074b2ad2.json",
+					"name" : "duckietown_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d688109554def49fdc71.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs",
+		"source" : "/home/vboxuser/duckietown_ws/duckietown_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

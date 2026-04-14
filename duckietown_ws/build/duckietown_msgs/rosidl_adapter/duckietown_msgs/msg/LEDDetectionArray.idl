@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/LEDDetectionArray.msg
+// generated code does not contain a copyright notice
+
+#include "duckietown_msgs/msg/LEDDetection.idl"
+
+module duckietown_msgs {
+  module msg {
+    struct LEDDetectionArray {
+      sequence<duckietown_msgs::msg::LEDDetection> detections;
+    };
+  };
+};

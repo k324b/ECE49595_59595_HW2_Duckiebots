@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/Rects.msg
+// generated code does not contain a copyright notice
+
+#include "duckietown_msgs/msg/Rect.idl"
+
+module duckietown_msgs {
+  module msg {
+    struct Rects {
+      sequence<duckietown_msgs::msg::Rect> rects;
+    };
+  };
+};

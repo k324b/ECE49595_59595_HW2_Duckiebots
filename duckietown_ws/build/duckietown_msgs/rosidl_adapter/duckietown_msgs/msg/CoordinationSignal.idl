@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/CoordinationSignal.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    module CoordinationSignal_Constants {
+      @verbatim (language="comment", text=
+        "these must match with LED_protocol.yaml")
+      const string OFF = "light_off";
+      @verbatim (language="comment", text=
+        "string ON = light_on")
+      const string ON = "traffic_light_go";
+      const string SIGNAL_A = "CAR_SIGNAL_A";
+      const string SIGNAL_B = "CAR_SIGNAL_B";
+      const string SIGNAL_C = "CAR_SIGNAL_C";
+      const string SIGNAL_GREEN = "CAR_SIGNAL_GREEN";
+      const string SIGNAL_PRIORITY = "CAR_SIGNAL_PRIORITY";
+      const string SIGNAL_SACRIFICE_FOR_PRIORITY = "CAR_SIGNAL_SACRIFICE_FOR_PRIORITY";
+      const string TL_GO_ALL = "tl_go_all";
+      const string TL_STOP_ALL = "tl_stop_all";
+      const string TL_GO_N = "tl_go_N";
+      const string TL_GO_S = "tl_go_S";
+      const string TL_GO_W = "tl_go_W";
+      const string TL_GO_E = "tl_go_E";
+      const string TL_YIELD = "tl_yield";
+    };
+    struct CoordinationSignal {
+      std_msgs::msg::Header header;
+
+      string signal;
+    };
+  };
+};

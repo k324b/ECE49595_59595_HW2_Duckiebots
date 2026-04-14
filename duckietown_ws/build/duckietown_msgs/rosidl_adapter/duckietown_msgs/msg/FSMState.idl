@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/FSMState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    module FSMState_Constants {
+      @verbatim (language="comment", text=
+        "pseudo constants")
+      const string LANE_FOLLOWING = "LANE_FOLLOWING";
+      const string INTERSECTION_COORDINATION = "INTERSECTION_COORDINATION";
+      const string INTERSECTION_CONTROL = "INTERSECTION_CONTROL";
+      const string NORMAL_JOYSTICK_CONTROL = "NORMAL_JOYSTICK_CONTROL";
+      const string SAFE_JOYSTICK_CONTROL = "SAFE_JOYSTICK_CONTROL";
+      const string PARKING = "PARKING";
+      const string ARRIVE_AT_STOP_LINE = "ARRIVE_AT_STOP_LINE";
+      const string LANE_RECOVERY = "LANE_RECOVERY";
+      const string INTERSECTION_RECOVERY = "INTERSECTION_RECOVERY";
+      const string CALIBRATING = "CALIBRATING";
+      const string CALIBRATING_CALC = "CALIBRATING_CALC";
+    };
+    struct FSMState {
+      std_msgs::msg::Header header;
+
+      string state;
+    };
+  };
+};

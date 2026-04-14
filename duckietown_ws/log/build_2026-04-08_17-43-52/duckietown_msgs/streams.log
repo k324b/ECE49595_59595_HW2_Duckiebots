@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/vboxuser/duckietown_ws/build/duckietown_msgs': /usr/bin/cmake /home/vboxuser/duckietown_ws/duckietown_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/duckietown_ws/install/duckietown_msgs
+[0.198s] -- The C compiler identification is GNU 11.4.0
+[0.367s] -- The CXX compiler identification is GNU 11.4.0
+[0.454s] -- Detecting C compiler ABI info
+[0.697s] -- Detecting C compiler ABI info - done
+[0.713s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.713s] -- Detecting C compile features
+[0.714s] -- Detecting C compile features - done
+[0.721s] -- Detecting CXX compiler ABI info
+[0.981s] -- Detecting CXX compiler ABI info - done
+[0.991s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.992s] -- Detecting CXX compile features
+[0.993s] -- Detecting CXX compile features - done
+[1.005s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[1.005s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[1.011s] -- Configuring incomplete, errors occurred!
+[1.011s] See also "/home/vboxuser/duckietown_ws/build/duckietown_msgs/CMakeFiles/CMakeOutput.log".
+[1.011s]   this project has asked CMake to find a package configuration file provided
+[1.011s]   by "rosidl_default_generators", but CMake did not find one.
+[1.012s] 
+[1.012s]   Could not find a package configuration file provided by
+[1.012s]   "rosidl_default_generators" with any of the following names:
+[1.012s] 
+[1.012s]     rosidl_default_generatorsConfig.cmake
+[1.012s]     rosidl_default_generators-config.cmake
+[1.012s] 
+[1.012s]   Add the installation prefix of "rosidl_default_generators" to
+[1.012s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[1.012s]   containing one of the above files.  If "rosidl_default_generators" provides
+[1.012s]   a separate development package or SDK, be sure it has been installed.
+[1.012s] 
+[1.013s] [0m
+[1.017s] Invoked command in '/home/vboxuser/duckietown_ws/build/duckietown_msgs' returned '1': /usr/bin/cmake /home/vboxuser/duckietown_ws/duckietown_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/duckietown_ws/install/duckietown_msgs

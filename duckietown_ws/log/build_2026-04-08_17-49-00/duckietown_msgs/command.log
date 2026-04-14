@@ -1,0 +1,6 @@
+Invoking command in '/home/vboxuser/duckietown_ws/build/duckietown_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/duckietown_ws/duckietown_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/duckietown_ws/install/duckietown_msgs
+Invoked command in '/home/vboxuser/duckietown_ws/build/duckietown_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/duckietown_ws/duckietown_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/duckietown_ws/install/duckietown_msgs
+Invoking command in '/home/vboxuser/duckietown_ws/build/duckietown_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/duckietown_ws/build/duckietown_msgs -- -j1 -l1
+Invoked command in '/home/vboxuser/duckietown_ws/build/duckietown_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/duckietown_ws/build/duckietown_msgs -- -j1 -l1
+Invoking command in '/home/vboxuser/duckietown_ws/build/duckietown_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/duckietown_ws/build/duckietown_msgs
+Invoked command in '/home/vboxuser/duckietown_ws/build/duckietown_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/duckietown_ws/build/duckietown_msgs

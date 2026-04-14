@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/DuckieSensor.msg
+// generated code does not contain a copyright notice
+
+
+module duckietown_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Sensors send value and type messages" "\n"
+      "For analog sensors value = 0..4095 and fvalue = 0.0..1.0" "\n"
+      "For digital sensors value= 0..1 and fvalue = 0.0")
+    struct DuckieSensor {
+      uint16 value;
+
+      float fvalue;
+
+      boolean is_analog;
+
+      string name;
+    };
+  };
+};

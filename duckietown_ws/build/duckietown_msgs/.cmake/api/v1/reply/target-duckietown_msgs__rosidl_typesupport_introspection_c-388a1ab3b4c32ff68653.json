@@ -1,0 +1,1376 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libduckietown_msgs__rosidl_typesupport_introspection_c.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"add_definitions",
+			"find_package",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 50,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 8,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 21,
+				"parent" : 18
+			},
+			{
+				"file" : 7,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 20
+			},
+			{
+				"file" : 6,
+				"parent" : 21
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 25,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wall"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"define" : "ROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_duckietown_msgs"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "ROS_PACKAGE_NAME=\"duckietown_msgs\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rcutils"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/std_msgs"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/visualization_msgs"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/sensor_msgs"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_introspection_c"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "duckietown_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "duckietown_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 8,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 8,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/vboxuser/duckietown_ws/install/duckietown_msgs"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/vboxuser/duckietown_ws/build/duckietown_msgs:/opt/ros/humble/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "libduckietown_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/ros/humble/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "duckietown_msgs__rosidl_typesupport_introspection_c",
+	"nameOnDisk" : "libduckietown_msgs__rosidl_typesupport_introspection_c.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				118
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/car_control__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/coordination_signal__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/coordination_signal_ethz17__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/duckie_sensor__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/lane_pose__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/intersection_pose__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/intersection_pose_img__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/intersection_pose_img_debug__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/turn_i_dand_type__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/led_detection__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/maintenance_state__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/led_detection_array__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/led_detection_debug_info__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/wheels_cmd__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/wheels_cmd_stamped__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/signals_detection__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/signals_detection_ethz17__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/twist2_d_stamped_ethz17__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/april_tags_with_infos__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/tag_info__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/pixel__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/vector2_d__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/segment__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/segment_list__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/rect__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/rects__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/scene_segments__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/source_target_nodes__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/coordination_clearance__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/coordination_clearance_ethz17__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/vehicle_corners__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/vehicle_pose__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/fsm_state__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/bool_stamped_ethz17__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/stop_line_reading__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/led_interpreter__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/anti_instagram_health__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/anti_instagram_transform__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/anti_instagram_transform_cb__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/kinematics_weights__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/kinematics_parameters__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/theta_dot_sample__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/vsample__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/trajectory__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_type__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_image_detection__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_image_detection_list__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_projected_detection__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_projected_detection_list__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/num__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/srv/detail/set_fsm_state__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/srv/detail/set_value__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/srv/detail/set_variable__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/srv/detail/get_variable__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/car_control__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/coordination_signal__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/coordination_signal_ethz17__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/duckie_sensor__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/lane_pose__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/intersection_pose__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/intersection_pose_img__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/intersection_pose_img_debug__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/turn_i_dand_type__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/led_detection__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/maintenance_state__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/led_detection_array__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/led_detection_debug_info__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/wheels_cmd__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/wheels_cmd_stamped__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/pose2_d_stamped__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/signals_detection__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/signals_detection_ethz17__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/twist2_d_stamped__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/twist2_d_stamped_ethz17__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/april_tag_detection__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/april_tag_detection_array__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/april_tags_with_infos__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/tag_info__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/pixel__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/vector2_d__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/segment__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/segment_list__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/rect__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/rects__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/scene_segments__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/source_target_nodes__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/coordination_clearance__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/coordination_clearance_ethz17__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/vehicle_corners__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/vehicle_pose__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/fsm_state__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/bool_stamped__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/bool_stamped_ethz17__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/stop_line_reading__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/led_interpreter__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/anti_instagram_health__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/anti_instagram_transform__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/anti_instagram_transform_cb__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/kinematics_weights__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/kinematics_parameters__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/theta_dot_sample__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/vsample__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/trajectory__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_type__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_image_detection__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_image_detection_list__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_projected_detection__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/obstacle_projected_detection_list__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/num__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/srv/detail/set_fsm_state__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/srv/detail/set_value__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/srv/detail/set_variable__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/srv/detail/get_variable__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vboxuser/duckietown_ws/build/duckietown_msgs/rosidl_typesupport_introspection_c/duckietown_msgs/msg/detail/car_control__rosidl_typesupport_introspection_c.h.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

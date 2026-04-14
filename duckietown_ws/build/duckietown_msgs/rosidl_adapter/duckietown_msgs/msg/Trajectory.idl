@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/Trajectory.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3Stamped.idl"
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    struct Trajectory {
+      std_msgs::msg::Header header;
+
+      sequence<geometry_msgs::msg::Vector3Stamped> pos;
+
+      sequence<geometry_msgs::msg::Vector3Stamped> vel;
+
+      sequence<geometry_msgs::msg::Vector3Stamped> acc;
+
+      sequence<geometry_msgs::msg::Vector3Stamped> jerk;
+    };
+  };
+};

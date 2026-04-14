@@ -1,0 +1,57 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/LanePose.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module duckietown_msgs {
+  module msg {
+    module LanePose_Constants {
+      @verbatim (language="comment", text=
+        "Enum for status")
+      const int32 NORMAL = 0;
+      const int32 ERROR = 1;
+    };
+    struct LanePose {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "lateral offset")
+      float d;
+
+      @verbatim (language="comment", text=
+        "lateral offset reference")
+      float d_ref;
+
+      float sigma_d;
+
+      @verbatim (language="comment", text=
+        "heading error")
+      float phi;
+
+      @verbatim (language="comment", text=
+        "heading error reference")
+      float phi_ref;
+
+      float sigma_phi;
+
+      float curvature;
+
+      @verbatim (language="comment", text=
+        "Refernece Curvature")
+      float curvature_ref;
+
+      @verbatim (language="comment", text=
+        "Referenece Velocity")
+      float v_ref;
+
+      @verbatim (language="comment", text=
+        "Status of duckietbot 0 if normal, 1 if error is encountered")
+      int32 status;
+
+      @verbatim (language="comment", text=
+        "Status of duckietbot in lane")
+      boolean in_lane;
+    };
+  };
+};

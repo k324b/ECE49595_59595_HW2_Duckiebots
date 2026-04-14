@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from duckietown_msgs/msg/Vsample.msg
+// generated code does not contain a copyright notice
+
+
+module duckietown_msgs {
+  module msg {
+    struct Vsample {
+      float dl;
+
+      float dr;
+
+      float dt;
+
+      float theta_angle_pose_delta;
+
+      float x_axis_pose_delta;
+
+      float y_axis_pose_delta;
+    };
+  };
+};
