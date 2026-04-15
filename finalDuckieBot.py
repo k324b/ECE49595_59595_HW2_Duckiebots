@@ -6,9 +6,8 @@ import speech_recognition as sr
 from faster_whisper import WhisperModel
 import roslibpy
 
-# -----------------------------
-# Connect to Duckiebot rosbridge
-# -----------------------------
+
+# connect to Duckiebot rosbridge
 client = roslibpy.Ros(host='entebot208.local', port=9001)
 client.run()
 
@@ -20,45 +19,43 @@ topic = roslibpy.Topic(
     'duckietown_msgs/Twist2DStamped'
 )
 
-# -----------------------------
-# Whisper STT
-# -----------------------------
+# load Whisper for speech to text
 print("Loading Whisper model...")
 stt = WhisperModel("tiny.en", compute_type="int8")
 print("Whisper loaded!")
 
-# -----------------------------
-# Continuous publisher
-# keeps sending the current velocity so the bot doesn't stop
-# -----------------------------
+
+# continuously sends command
 current_v = 0.0
 current_omega = 0.0
-publisher_running = True
+command_active = True
 
-def continuous_publish():
-    while publisher_running:
+def continuous_command():
+    while command_active:
         topic.publish(roslibpy.Message({
             'header': {'stamp': {'secs': 0, 'nsecs': 0}, 'frame_id': ''},
             'v': float(current_v),
             'omega': float(current_omega)
         }))
-        time.sleep(0.1)  # publish at 10Hz
+        time.sleep(0.1)  
 
-pub_thread = threading.Thread(target=continuous_publish, daemon=True)
-pub_thread.start()
+command_thread = threading.Thread(target=continuous_command, daemon=True)
+command_thread.start()
 
-# -----------------------------
-# Detect command
-# -----------------------------
+# detects commands
 def normalize(text):
     return text.lower().strip()
 
 def detect(text):
     text = normalize(text)
     if "forward" in text: return "forward"
+    if "increase" in text: return "speed up"
+    if "decrease" in text: return "slow down"
     if "backward" in text or "back" in text: return "backward"
     if "left" in text: return "left"
+    if "square" in text: return "half left"
     if "right" in text: return "right"
+    if "circle" in text: return "half right"
     if "stop" in text or "halt" in text: return "stop"
     return None
 
@@ -66,29 +63,60 @@ def send_command(command):
     global current_v, current_omega
 
     if command == "forward":
-        print("Command: FORWARD — full speed, say stop to halt")
+        print("Command: FORWARD")
         current_v = -0.3
         current_omega = 0.0
 
+    elif command == "speed up":
+        print("Command: SPEED UP")
+        current_v = -0.5
+        current_omega = 0.0
+
+    elif command == "slow down":
+        print("Command: SLOW DOWN")
+        current_v = -0.1
+        current_omega = 0.0
+
     elif command == "backward":
-        print("Command: BACKWARD — full speed, say stop to halt")
+        print("Command: BACKWARD")
         current_v = 0.3
+        current_omega = 0.0
+        time.sleep(0.8)      
+        current_v = 0.0
         current_omega = 0.0
 
     elif command == "left":
-        print("Command: LEFT — turning 90 degrees")
+        print("Command: LEFT")
         current_v = 0.0
         current_omega = 3.0   # positive = left
-        time.sleep(0.8)       # tune this for exact 90 degrees
+        time.sleep(0.8)      
+        current_v = 0.0
+        current_omega = 0.0
+        print("Turn complete.")
+
+    elif command == "half left":
+        print("Command: HALF LEFT")
+        current_v = 0.0
+        current_omega = 3.0  # positive = left
+        time.sleep(0.4)      
         current_v = 0.0
         current_omega = 0.0
         print("Turn complete.")
 
     elif command == "right":
-        print("Command: RIGHT — turning 90 degrees")
+        print("Command: RIGHT")
         current_v = 0.0
         current_omega = -3.0  # negative = right
-        time.sleep(0.8)       # tune this for exact 90 degrees
+        time.sleep(0.8)      
+        current_v = 0.0
+        current_omega = 0.0
+        print("Turn complete.")
+
+    elif command == "half right":
+        print("Command: HALF RIGHT")
+        current_v = 0.0
+        current_omega = -3.0   # positive = left
+        time.sleep(0.4)      
         current_v = 0.0
         current_omega = 0.0
         print("Turn complete.")
@@ -98,9 +126,7 @@ def send_command(command):
         current_v = 0.0
         current_omega = 0.0
 
-# -----------------------------
-# Setup microphone
-# -----------------------------
+# setup mic
 recognizer = sr.Recognizer()
 recognizer.energy_threshold = 300
 recognizer.dynamic_energy_threshold = True
@@ -122,9 +148,7 @@ with mic as source:
     recognizer.adjust_for_ambient_noise(source, duration=1.0)
 print("Calibration done!")
 
-# -----------------------------
-# Main loop
-# -----------------------------
+# main loop
 print("\nReady! Speak: forward, backward, left, right, stop")
 print("Press Ctrl+C to quit\n")
 
@@ -133,7 +157,7 @@ try:
         try:
             print("Listening...")
             with mic as source:
-                audio = recognizer.listen(source, timeout=5.0, phrase_time_limit=3.0)
+                audio = recognizer.listen(source, timeout=2.0, phrase_time_limit=1.5)
 
             audio_data = audio.get_raw_data(convert_rate=16000, convert_width=2)
             audio_np = (
@@ -141,7 +165,7 @@ try:
                 .astype(np.float32) / 32768.0
             )
 
-            segments, _ = stt.transcribe(audio_np)
+            segments, _ = stt.transcribe(audio_np, beam_size=1,best_of=1)
             text = " ".join(s.text for s in segments).strip()
 
             if not text:
@@ -168,7 +192,7 @@ except KeyboardInterrupt:
     time.sleep(0.3)
 
 finally:
-    publisher_running = False
+    command_active = False
     topic.unadvertise()
     client.terminate()
     print("Disconnected.")
